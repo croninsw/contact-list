@@ -6,6 +6,7 @@ const contact = {
             <div>${entry.phone}</div>
             <div>${entry.address}</div>
         </section>
+        <hr>
     `
     }
 }

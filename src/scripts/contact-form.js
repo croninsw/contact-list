@@ -7,9 +7,9 @@ const contactForm = function () {
         const address = document.querySelector("#contactAddress").value
 
         const newContact = {
-            contactname: name,
-            contactphonenumber: phone,
-            contactaddress: address
+            name: name,
+            phone: phone,
+            address: address
         }
         API.postNewContact(newContact)
     }
