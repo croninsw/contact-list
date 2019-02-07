@@ -1,5 +1,3 @@
-// contact component that displays a person's contact information
-// need an addtodom function
 const contact = {
     createContactHTML: function (entry) {
         return `
