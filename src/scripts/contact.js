@@ -6,6 +6,7 @@ const contact = {
             <div>${entry.phone}</div>
             <div>${entry.address}</div>
         </section>
+        <button id="deleteButton--${entry.id}">Delete Contact</button>
         <hr>
     `
     }

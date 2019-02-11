@@ -11,6 +11,11 @@ const API = {
             },
             body: JSON.stringify(obj)
         })
+    },
+    deleteContact: function (contactId) {
+    return fetch(`http://127.0.0.1:8088/contacts/${contactId}`, {
+            method: "DELETE"
+        })
     }
 }
 
